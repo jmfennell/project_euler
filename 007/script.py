@@ -12,15 +12,15 @@ def is_prime(i):
     return True
 
 def main():
-	prime = 2
-	i = 1
-	j = 3
-	while i < n:
-		if is_prime(j):
-			prime = j
-			i += 1
-		j += 2
-	print(prime)
+    prime = 2
+    i = 1
+    j = 3
+    while i < n:
+        if is_prime(j):
+            prime = j
+            i += 1
+        j += 2
+    print(prime)
 
 if __name__ == '__main__':
     main()

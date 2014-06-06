@@ -3,11 +3,11 @@
 max_ = 100
 
 def sum_of_squares(n):
-	return sum(i ** 2 for i in range(1,n+1))
+    return sum(i ** 2 for i in range(1,n+1))
 
 def square_of_sum(n):
-	sum_ = sum(i for i in range(1,n+1))
-	return sum_**2
+    sum_ = sum(i for i in range(1,n+1))
+    return sum_**2
 
 
 def main():
