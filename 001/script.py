@@ -1,18 +1,20 @@
+#!/usr/bin/env python3
+
 from itertools import count
 
 max = 1000
 
 def multiple(i):
-    if (i%3==0 or i%5==0):
-        return True
-    else:
-        return False
+    return (i % 3 == 0) or (i % 5 == 0)
 
-num = 0
-for i in count():
-    if i >= max:
-        break;
-    if multiple(i):
-        num += i
+def main():
+    num = 0
+    for i in count():
+        if i >= max:
+            break;
+        if multiple(i):
+            num += i
+    print(num)
 
-print(num)
+if __name__ == '__main__':
+    main()
